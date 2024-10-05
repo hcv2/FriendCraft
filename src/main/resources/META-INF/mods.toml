@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[49,)"
+license="LGPL-3.0"
+
+[[mods]]
+modId="friendcraft"
+version="${mod_version}"
+displayName="FriendCraft"
+authors="FriendCraft Team"
+description='''A Minecraft mod that enables summoning AI player entities through chat commands. These entities can serve as teammates in combat, assistants for automatic resource gathering, explorers to guide players to new areas, and possess learnable behaviors.'''
+
+[[dependencies.friendcraft]]
+modId="neoforge"
+mandatory=true
+versionRange="[20.4,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.friendcraft]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.4]"
+ordering="NONE"
+side="BOTH"
